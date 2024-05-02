@@ -87,10 +87,10 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
-        InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="HELP", callback_data="Main_help"),
+        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="ℹ️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🖥️", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="📜", callback_data="Main_help"),
      ],
     [
         InlineKeyboardButton(
@@ -379,10 +379,10 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
-        InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="HELP", callback_data="Main_help"),
+        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="ℹ️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🖥️", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="📜", callback_data="Main_help"),
      ],
                     [
                         InlineKeyboardButton(

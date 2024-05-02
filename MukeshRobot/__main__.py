@@ -88,7 +88,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
         InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
      ],
@@ -380,7 +380,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
         InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
      ],
@@ -412,7 +412,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
         InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
      ],
@@ -580,7 +580,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             reply_markup=InlineKeyboardMarkup(
                 [ [
         InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
         InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
      ],
@@ -610,7 +610,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                 ],
                  [
         InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"), BY
+        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
         InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
      ],[InlineKeyboardButton(text="◁", callback_data="source_back")]]
@@ -639,7 +639,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="HOME", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
+        InlineKeyboardButton(text="INFO", callback_data="mukesh_"),
         InlineKeyboardButton(text="DEV", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
      ],

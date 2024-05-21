@@ -2,6 +2,8 @@ import html
 import os
 import re
 
+STATS
+
 import requests
 from telegram import (
     MAX_MESSAGE_LENGTH,
